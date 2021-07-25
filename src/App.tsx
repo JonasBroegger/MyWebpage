@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import Header from './Components/Header/Header'
 import './App.scss';
+import Button from './Components/Button';
+import React from 'react';
 
 function App() {
+  function handleCLick(event: React.MouseEvent){
+    console.log("I've been clicked", event);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Button onClick={handleCLick}><h1>Test</h1></Button>
     </div>
   );
 }

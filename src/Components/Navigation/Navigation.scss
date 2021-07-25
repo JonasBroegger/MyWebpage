@@ -1,0 +1,29 @@
+.nav{
+    h1{
+        margin-top: 2em;                
+        margin-left: 1em;
+        float: left;
+        color: whitesmoke;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    nav{
+        float: right;
+        li{
+            margin-top: 1.5em;
+            display: inline-block;
+            list-style: none;
+            font-size: large;
+            padding: 2em;
+            vertical-align: middle;    
+        }
+        li a{
+            text-align: center;
+            text-decoration: none;
+            color: whitesmoke;    
+        }
+        li:hover, li a:hover{
+            background-color: lightslategray;
+            
+        }
+    }
+}
