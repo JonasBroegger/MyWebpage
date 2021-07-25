@@ -1,0 +1,16 @@
+.mainprojects {
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+.Projects {
+  display: flex;
+  justify-content: space-evenly;
+
+  > * {
+    margin: 0 1rem;
+  }
+}

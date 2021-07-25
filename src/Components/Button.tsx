@@ -2,6 +2,7 @@ import React, { PropsWithChildren } from "react";
 
 interface IButtonProps {
     onClick: (event: React.MouseEvent) => void;
+    type: string;
 }
 
 export default function Button(props: PropsWithChildren<IButtonProps>){

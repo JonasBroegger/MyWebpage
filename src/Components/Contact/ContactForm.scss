@@ -1,0 +1,41 @@
+.MainContact{
+    width: 60%;
+    margin: auto;
+
+
+    h1{
+        text-align: center;
+        color: whitesmoke;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+
+    }
+
+    form{
+        width: 60%;
+        margin: auto;
+    }
+
+    input, textarea{
+        width: 100%;
+        margin-bottom: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        background-color: #262B30;
+        color: whitesmoke;
+    }
+    textarea{
+        height: auto;
+    }
+
+    button{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-bottom: 1em;
+        background-color:#262B30;
+        color: whitesmoke;
+    }
+    
+}
