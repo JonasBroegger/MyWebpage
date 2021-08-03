@@ -8,12 +8,15 @@
         color: whitesmoke;
         padding-top: 1em;
         padding-bottom: 0.5em;
-
     }
 
     form{
         width: 60%;
         margin: auto;
+    }
+
+    label{
+        color: whitesmoke;
     }
 
     input, textarea{
@@ -38,4 +41,9 @@
         color: whitesmoke;
     }
     
+}
+.ServiceMessage{
+text-align: center;
+color: whitesmoke;
+margin-bottom: 2rem;
 }
